@@ -4,6 +4,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
 #include <sys/fcntl.h>
 #include <sys/mman.h>
 #include <time.h>
